@@ -70,3 +70,19 @@ wallet_id,score
 ## ✅ Summary
 This project estimates wallet risk scores using Compound protocol on-chain transaction behavior, providing a basis for risk-aware lending, credit evaluation, or wallet filtering.
 
+## 🔮 Future Enhancements
+
+Here are some potential improvements and extensions to the current project:
+
+- **Real-Time Data Integration**  
+  Integrate live data fetching from Compound V2/V3 using Web3, Alchemy, or Moralis for real-time risk scoring.
+
+- **Support for Other Lending Protocols**  
+  Extend the framework to support Aave, MakerDAO, and Venus to provide a more comprehensive DeFi risk profile.
+
+- **Machine Learning Model for Scoring**  
+  Train a supervised or unsupervised ML model using wallet behavior history and known risk labels (if available).
+
+- **Dashboard / Visualization**  
+  Build an interactive dashboard using Streamlit or Dash to visualize wallet scores, trends, and risks.
+
