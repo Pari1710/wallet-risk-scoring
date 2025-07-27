@@ -63,6 +63,15 @@ score = 0.4 * (repay_ratio) + 0.3 * (1 - liquidation_rate) + 0.3 * (normalized_b
 The result is scaled to 0–1000 for comparability.
 
 
+### ✅ Justification of Risk Indicators
+- **High Borrow Volume**: Suggests greater exposure to debt and risk
+- **Low Repay Count**: Indicates poor repayment behavior
+- **High Liquidations**: Strong indicator of default or overleveraging
+- **Balanced borrow & repay**: Suggests responsible on-chain behavior
+
+These indicators align with common practices in decentralized credit evaluation and risk modeling.
+
+
 
 ## 🧾 Output Format
 Final output is in `data/wallet_scores.csv`, formatted as:
@@ -84,13 +93,6 @@ wallet_id,score
 | `report/README.md`        | This report                            |
 
 
-### ✅ Justification of Risk Indicators
-- **High Borrow Volume**: Suggests greater exposure to debt and risk
-- **Low Repay Count**: Indicates poor repayment behavior
-- **High Liquidations**: Strong indicator of default or overleveraging
-- **Balanced borrow & repay**: Suggests responsible on-chain behavior
-
-These indicators align with common practices in decentralized credit evaluation and risk modeling.
 
 ## ✅ Summary
 This project estimates wallet risk scores using Compound protocol on-chain transaction behavior, providing a basis for risk-aware lending, credit evaluation, or wallet filtering.
