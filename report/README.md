@@ -14,6 +14,19 @@ The following features were derived:
 
 These features were extracted from historical borrow/repay/liquidation events on-chain.
 
+## 📁 Files
+
+- `main.py`: Loads and cleans wallet data
+- `scoring.py`: Applies the risk scoring model
+- `wallet_features.csv`: Final aggregated data
+- `report/README.md`: Project report and methodology
+
+## 📊 Tech Used
+
+- Python (Pandas, NumPy)
+- Dune Analytics (for data sourcing)
+- Git/GitHub (for version control)
+
 ## 📈 Scoring Method
 Each wallet was assigned a score between **0 and 1000**, calculated based on:
 
