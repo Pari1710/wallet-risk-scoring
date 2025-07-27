@@ -3,6 +3,15 @@
 ## 🗃️ Data Collection
 The transaction-level data was extracted from Dune Analytics using Compound V2 tables.  
 Due to query limitations and potential rate limits, a subset of wallet addresses was used to generate a manageable sample.
+From this sample, we derived **wallet-level aggregates** such as:
+- 📊 Borrow count  
+- 💵 Total borrowed (USD)  
+- 🔁 Repay count  
+- ⚠️ Liquidation event count  
+
+These features were **normalized**, and a final **risk score (0–100)** was computed for each wallet using a weighted scoring model.
+
+---
 
 ## 🔍 Feature Selection
 The following features were derived:
